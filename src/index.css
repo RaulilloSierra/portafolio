@@ -1,7 +1,8 @@
 :root {
-  --black: rgb(0, 0, 0);
-  --white: rgb(255, 255, 255);
+  --black: #000;
+  --white: #fff;
   --font-family: "Space Mono", serif;
+  --secundario: #8aa0e0;
 }
 
 html {
@@ -11,4 +12,5 @@ html {
 body{
   font-family: var(--font-family);
   background-color: var(--black);
+  color: var(--white);
 }

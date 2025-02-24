@@ -1,0 +1,27 @@
+.header {
+  padding: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.opciones {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.opcion {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.opcion:hover {
+  font-weight: 900;
+}
+
+.opcion.active {
+  font-weight: 700;
+  color: var(--secundario);
+}
