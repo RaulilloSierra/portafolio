@@ -1,0 +1,30 @@
+.about h2 {
+  font-size: 40px;
+}
+
+.about-contenido {
+  font-size: 16px;
+}
+
+.about-contacto {
+  font-size: 30px;
+}
+
+.about-email {
+  text-decoration: none;
+  padding: 1rem;
+  background-color: var(--white);
+  display: inline-block;
+  border-radius: 20px;
+  border: none;
+  color: var(--black);
+  text-align: center;
+  font-size: 24px;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.about-email:hover {
+  transform: scale(1.15);
+}
