@@ -7,7 +7,7 @@ export const proyectos: Proyectos[] = [
     categoria: "Full Project",
     descripcion:
       "Una SPA que usa diferentes páginas para buscar recetas en la API de Spoonacular, ver el detalle de la receta y crear tus propias recetas",
-    imagen: "foodapp.png",
+    imagen: "src/img/foodapp.png",
     herramientas: [
       "javascript",
       "react",
@@ -27,7 +27,7 @@ export const proyectos: Proyectos[] = [
     nombre: "Guitar LA",
     categoria: "Front-end",
     descripcion: "Una página web donde podrás comprar bellas guitarras",
-    imagen: "guitarla.png",
+    imagen: "src/img/guitarla.png",
     herramientas: ["typescript", "css", "react"],
     url: "https://gregarious-macaron-6e2920.netlify.app/",
     github: "https://github.com/RaulilloSierra/guitarLA-TS-Reducer",
@@ -38,7 +38,7 @@ export const proyectos: Proyectos[] = [
     categoria: "Front-end",
     descripcion:
       "Un lugar donde podrás buscar el clima de cualquier ciudad del mundo, usando la API de Open Weather",
-    imagen: "climaapi.png",
+    imagen: "src/img/climaapi.png",
     herramientas: ["typescript", "css", "react", "zod"],
     url: "https://merry-tiramisu-14a198.netlify.app/",
     github: "https://github.com/RaulilloSierra/clima-api",
@@ -49,7 +49,7 @@ export const proyectos: Proyectos[] = [
     categoria: "Front-end",
     descripcion:
       "Una aplicación web donde puedes registrar el ingreso de pacientes a tu clínica veteriniaria y darles de alta",
-    imagen: "pacientescitas.png",
+    imagen: "src/img/pacientescitas.png",
     herramientas: ["typescript", "tailwind", "react", "zod", "zustand"],
     url: "https://pacientes-citas-681907.netlify.app/",
     github: "https://github.com/RaulilloSierra/pacientes-citas",
@@ -60,7 +60,7 @@ export const proyectos: Proyectos[] = [
     categoria: "Front-end",
     descripcion:
       "Una aplicación web donde puede realizar una cotización en tiempo real de las criptomonedas más populares en el momento en difentes divisas gracias a la API de CryptoCompare",
-    imagen: "cryptoapp.png",
+    imagen: "src/img/cryptoapp.png",
     herramientas: ["typescript", "css", "react", "zod", "zustand"],
     url: "https://whimsical-dasik-55056c.netlify.app/",
     github: "https://github.com/RaulilloSierra/crypto-cotizador/",
@@ -71,7 +71,7 @@ export const proyectos: Proyectos[] = [
     categoria: "Front-end",
     descripcion:
       "Una calculadora dinámica donde podrá medir sus gastos mensuales mediante un presupuesto definido, filtrando que tipos de gastos tiene y almacenando la información en su almacenamiento local",
-    imagen: "controlgastos.png",
+    imagen: "src/img/controlgastos.png",
     herramientas: ["typescript", "tailwind", "react"],
     url: "https://bejewelled-kitsune-ebfb35.netlify.app/",
     github: "https://github.com/RaulilloSierra/controlgastos/",
