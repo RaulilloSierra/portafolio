@@ -13,7 +13,6 @@ export const proyectos: Proyectos[] = [
       "react",
       "redux",
       "css",
-      "css",
       "node",
       "express",
       "sequelize",

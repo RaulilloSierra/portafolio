@@ -25,7 +25,7 @@
 
 .proyectos-container {
   width: 100%;
-  max-width: 600px;
+  max-width: 900px;
   height: auto;
   margin: 0 auto;
   overflow: hidden;
@@ -116,9 +116,10 @@ div.active {
   padding: 4px 0;
 }
 
-.descripcion-proyecto{
+.descripcion-proyecto {
   font-size: 14px;
   padding: 20px;
+  margin: 0;
 }
 
 .enlaces-proyecto {
@@ -138,4 +139,12 @@ div.active {
 .url-proyecto:hover,
 .github-proyecto:hover {
   transform: scale(1.15);
+}
+
+.herramientas-proyecto {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
 }

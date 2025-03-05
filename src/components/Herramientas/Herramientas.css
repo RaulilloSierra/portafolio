@@ -1,0 +1,84 @@
+.herramienta-container {
+  width: 15%;
+  justify-content: center;
+  row-gap: 10px;
+  padding: 10px;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 12px;
+}
+
+.javascript {
+  background-color: #efd81d;
+  color: var(--black);
+}
+
+.typescript {
+  background-color: #2f74c0;
+}
+
+.html {
+  background-color: #dd4b25;
+}
+
+.css {
+  background-color: #254bdd;
+}
+
+.react {
+  background-color: #5ed3f3;
+  color: var(--black);
+}
+
+.zustand {
+  background-color: #443e38;
+}
+.zod {
+  background-color: #142641;
+}
+.redux {
+  background-color: #7248b6;
+}
+.tailwind {
+  background-color: #38bdf8;
+  color: var(--black);
+}
+.boostrap {
+  background-color: #8011f5;
+}
+
+.sass {
+  background-color: #c66394;
+}
+
+.pug {
+  background-color: #a86454;
+}
+
+.node {
+  background-color: #417e38;
+}
+
+.express {
+  background-color: #0c0c0c;
+}
+
+.sequelize {
+  background-color: #3a72bd;
+}
+
+.mongoose {
+  background-color: #9f3232;
+}
+
+.postgresql {
+  background-color: #2f5e8d;
+}
+
+.mysql {
+  background-color: #42759c;
+}
+
+.mongodb {
+  background-color: #00684a;
+}

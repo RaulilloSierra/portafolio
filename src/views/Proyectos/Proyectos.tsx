@@ -1,12 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import {
-  FaGithubSquare,
-  FaLink,
-} from "react-icons/fa";
+import { FaGithubSquare, FaLink } from "react-icons/fa";
 import { proyectos } from "../../data/data";
 import "./Proyectos.css";
 import { Link } from "react-router-dom";
+import Herramientas from "../../components/Herramientas/Herramientas";
 
 export default function Proyectos() {
   const listRef = useRef<HTMLUListElement>(null);
@@ -47,10 +45,10 @@ export default function Proyectos() {
       <div className="proyectos-container">
         <div className="slider-container">
           <div className="leftArrow" onClick={() => scrollToImage("prev")}>
-          <IoIosArrowBack />
+            <IoIosArrowBack />
           </div>
           <div className="rightArrow" onClick={() => scrollToImage("next")}>
-          <IoIosArrowForward />
+            <IoIosArrowForward />
           </div>
           <div className="container-images">
             <ul ref={listRef}>
@@ -63,7 +61,15 @@ export default function Proyectos() {
                       alt={item.nombre}
                     />
                     <div className="texto-proyecto">
-                      <h3 className="titulo-proyecto">{item.nombre} - {item.categoria}</h3>
+                      <h3 className="titulo-proyecto">
+                        {item.nombre} - {item.categoria}
+                      </h3>
+                      <div className="herramientas-proyecto">
+                        {item.herramientas.map((herr) => (
+                          <Herramientas herr={herr} />
+                        ))}
+                      </div>
+
                       <p className="descripcion-proyecto">{item.descripcion}</p>
                       <div className="enlaces-proyecto">
                         <Link
