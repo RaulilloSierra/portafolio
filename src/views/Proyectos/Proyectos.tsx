@@ -42,6 +42,20 @@ export default function Proyectos() {
   return (
     <>
       <h2 className="proyecto-titulo">Proyectos</h2>
+      <p className="proyecto-introduccion">
+        Estos son algunos de los proyectos en los que he trabajado, destacando
+        los más relevantes. Si quieres ver más a fondo mi trabajo, te invito a
+        visitar mi{" "}
+        <span>
+          <Link
+            className="proyecto-github"
+            to="https://github.com/RaulilloSierra"
+            target="_blank"
+          >
+            Github
+          </Link>
+        </span>
+      </p>
       <div className="proyectos-container">
         <div className="slider-container">
           <div className="leftArrow" onClick={() => scrollToImage("prev")}>

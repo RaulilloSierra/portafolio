@@ -4,6 +4,7 @@ import Inicio from "./views/Inicio/Inicio";
 import About from "./views/About/About";
 import Proyectos from "./views/Proyectos/Proyectos";
 import Formacion from "./views/Formacion/Formacion";
+import Skills from "./views/Skills/Skills";
 
 export default function Router() {
   return (
@@ -14,6 +15,7 @@ export default function Router() {
           <Route path="/sobre-mi" element={<About />} />
           <Route path="/proyectos" element={<Proyectos />} />
           <Route path="/formacion" element={<Formacion />} />
+          <Route path="/skills" element={<Skills />} />
         </Route>
       </Routes>
     </BrowserRouter>
