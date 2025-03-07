@@ -1,0 +1,80 @@
+.contacto h2 {
+  font-size: 40px;
+}
+
+.contacto-introduccion {
+  font-size: 16px;
+}
+
+.contacto-email {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  column-gap: 5px;
+}
+
+.contacto-email p {
+  font-size: 25px;
+  padding: 10px 30px;
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 20px;
+}
+
+.copiar-correo {
+  height: 45px;
+  font-size: 30px;
+  background-color: transparent;
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  padding: 3px;
+}
+
+.enviar-correo {
+  height: 45px;
+  font-size: 24px;
+  background-color: transparent;
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 30px;
+  height: 30px;
+}
+
+.enviar-correo:hover,
+.copiar-correo:hover,
+.contacto-link:hover {
+  transform: scale(1.15);
+}
+
+.copied {
+  color: #27ae60;
+}
+
+.contacto-medios {
+  font-size: 60px;
+  height: 70px;
+  display: flex;
+  justify-content: left;
+  column-gap: 40px;
+  border-radius: 30px;
+}
+
+.contacto-link {
+  text-decoration: none;
+  color: var(--white);
+  transition: all 0.2s;
+}
+
+.linkedin:hover {
+  color: #0a66c2;
+  background-color: white;
+}
+
+.whatsapp:hover {
+  color: #25d366;
+  background-color: white;
+}

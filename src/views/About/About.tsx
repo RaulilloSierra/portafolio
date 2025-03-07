@@ -1,5 +1,5 @@
 import { FaEnvelope } from "react-icons/fa";
-import "./About.css"
+import "./About.css";
 
 export default function About() {
   const handleEmail = () => {
@@ -17,10 +17,16 @@ export default function About() {
         proyectos desafiantes como desarrollador web para aplicar y ampliar mis
         habilidades técnicas.
       </p>
-      <div ><p className="about-contacto">Contacto: <span><button onClick={handleEmail} className="about-email">
-        <FaEnvelope />
-      </button></span></p></div>
-      
+      <div>
+        <p className="about-contacto">
+          Contacto:{" "}
+          <span>
+            <button onClick={handleEmail} className="about-email">
+              <FaEnvelope />
+            </button>
+          </span>
+        </p>
+      </div>
     </div>
   );
 }
