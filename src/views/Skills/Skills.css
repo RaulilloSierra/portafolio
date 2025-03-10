@@ -43,7 +43,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width <= 768px) {
   .skills{
     padding: 0 10px;
   }
@@ -53,7 +53,7 @@
   }
 }
 
-@media (max-width: 1299px) {
+@media (max-width <= 1299px) {
   .skill-container{
     grid-template-columns: repeat(3, 1fr);
   }
