@@ -71,7 +71,7 @@ export default function Proyectos() {
                   <li key={item.id}>
                     <img
                       className="imagen-proyecto"
-                      src={item.imagen}
+                      src={`./proyecto/${item.imagen}`}
                       alt={item.nombre}
                     />
                     <div className="texto-proyecto">
