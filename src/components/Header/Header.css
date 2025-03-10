@@ -15,6 +15,7 @@
 .opcion {
   text-decoration: none;
   color: var(--white);
+  position: relative;
 }
 
 .opcion:hover {
@@ -24,4 +25,59 @@
 .opcion.active {
   font-weight: 700;
   border-bottom: 2px solid white;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .opciones {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: -webkit-fill-available;
+    transition: 0.3s ease all;
+    padding-bottom: 20px;
+    transform: translateX(-100%);
+  }
+
+  .opciones.open {
+    transform: translateX(0) !important;
+  }
+
+  .opcion {
+    padding-left: 20px;
+    border-bottom: 1px solid white;
+  }
+
+  .nav-toggle {
+    display: flex !important;
+    flex-direction: column;
+    margin: 15px;
+  }
+
+  .nav-toggle span {
+    width: 30px;
+    height: 4px;
+    background: var(--white);
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transform-origin: 5px 0px;
+    transition: all 0.2s linear;
+  }
+
+  .nav-toggle.open > span {
+    transform: rotate(45deg) translate(0px, 0px);
+  }
+  .nav-toggle.open > span:nth-child(2) {
+    display: none;
+  }
+  .nav-toggle.open > span:nth-child(3) {
+    transform: rotate(-45deg) translate(-5px, 1px);
+  }
 }
