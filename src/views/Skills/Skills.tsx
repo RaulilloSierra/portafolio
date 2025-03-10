@@ -10,7 +10,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/leng/javascript.png"
+              src="./skills/leng/javascript.png"
               alt="imagen"
             />
             <p>JavaScript</p>
