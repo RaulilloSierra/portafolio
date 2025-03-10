@@ -37,7 +37,8 @@ export const proyectos: Proyectos[] = [
     categoria: "Front-end",
     descripcion:
       "Un lugar donde podrás buscar el clima de cualquier ciudad del mundo, usando la API de Open Weather",
-    imagen: "src/img/climaapi.png",
+    imagen:
+      "https://drive.google.com/file/d/10ZZKwXc5daV6XXitc3owbuhxeXTYUD78/view?usp=drive_link",
     herramientas: ["typescript", "css", "react", "zod"],
     url: "https://merry-tiramisu-14a198.netlify.app/",
     github: "https://github.com/RaulilloSierra/clima-api",
