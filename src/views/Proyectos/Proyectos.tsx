@@ -66,7 +66,7 @@ export default function Proyectos() {
           </div>
           <div className="container-images">
             <ul ref={listRef}>
-              {proyectos.map((item) => {
+              {proyectos?.map((item) => {
                 return (
                   <li key={item.id}>
                     <img
