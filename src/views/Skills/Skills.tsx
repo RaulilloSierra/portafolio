@@ -18,7 +18,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/leng/typescript.png"
+              src="./skills/leng/typescript.png"
               alt="imagen"
             />
             <p>TypeScript</p>
@@ -26,7 +26,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/leng/html.png"
+              src="./skills/leng/html.png"
               alt="imagen"
             />
             <p>HTML</p>
@@ -34,7 +34,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/leng/css.png"
+              src="./skills/leng/css.png"
               alt="imagen"
             />
             <p>CSS</p>
@@ -47,7 +47,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/front/react.png"
+              src="./skills/front/react.png"
               alt="imagen"
             />
             <p>React</p>
@@ -55,7 +55,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/front/redux.png"
+              src="./skills/front/redux.png"
               alt="imagen"
             />
             <p>Redux</p>
@@ -63,7 +63,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/front/zustand.png"
+              src="./skills/front/zustand.png"
               alt="imagen"
             />
             <p>Zustand</p>
@@ -71,7 +71,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/front/zod.svg"
+              src="./skills/front/zod.svg"
               alt="imagen"
             />
             <p>Zod</p>
@@ -79,7 +79,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/front/tailwind.png"
+              src="./skills/front/tailwind.png"
               alt="imagen"
             />
             <p>Tailwind</p>
@@ -87,7 +87,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/front/bootstrap.png"
+              src="./skills/front/bootstrap.png"
               alt="imagen"
             />
             <p>Bootstrap</p>
@@ -95,7 +95,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/front/sass.png"
+              src="./skills/front/sass.png"
               alt="imagen"
             />
             <p>Sass</p>
@@ -103,7 +103,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/front/pug.png"
+              src="./skills/front/pug.png"
               alt="imagen"
             />
             <p>Pug</p>
@@ -116,7 +116,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/back/node.png"
+              src="./skills/back/node.png"
               alt="imagen"
             />
             <p>Node.Js</p>
@@ -124,7 +124,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/back/express.png"
+              src="./skills/back/express.png"
               alt="imagen"
             />
             <p>Express</p>
@@ -132,7 +132,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/back/sequelize.png"
+              src="./skills/back/sequelize.png"
               alt="imagen"
             />
             <p>Sequelize</p>
@@ -140,7 +140,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/back/mongoose.png"
+              src="./skills/back/mongoose.png"
               alt="imagen"
             />
             <p>Mongoose</p>
@@ -153,7 +153,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/bd/postgresql.png"
+              src="./skills/bd/postgresql.png"
               alt="imagen"
             />
             <p>Postgresql</p>
@@ -161,7 +161,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/bd/mysql.png"
+              src="./skills/bd/mysql.png"
               alt="imagen"
             />
             <p>MySQL</p>
@@ -169,7 +169,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/bd/mongodb.png"
+              src="./skills/bd/mongodb.png"
               alt="imagen"
             />
             <p>MongoDB</p>
@@ -182,7 +182,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/soft/comunicacion.png"
+              src="./skills/soft/comunicacion.png"
               alt="imagen"
             />
             <p>Comunicación</p>
@@ -190,7 +190,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/soft/equipo.png"
+              src="./skills/soft/equipo.png"
               alt="imagen"
             />
             <p>Trabajo en equipo</p>
@@ -198,7 +198,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/soft/adaptabilidad.png"
+              src="./skills/soft/adaptabilidad.png"
               alt="imagen"
             />
             <p>Adaptabilidad</p>
@@ -206,7 +206,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/soft/resolucion.webp"
+              src="./skills/soft/resolucion.webp"
               alt="imagen"
             />
             <p>Resolución de problemas</p>
@@ -214,7 +214,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/soft/tiempo.png"
+              src="./skills/soft/tiempo.png"
               alt="imagen"
             />
             <p>Gestión del tiempo</p>
@@ -222,7 +222,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/soft/detalle.png"
+              src="./skills/soft/detalle.png"
               alt="imagen"
             />
             <p>Atención al detalle</p>
@@ -230,7 +230,7 @@ export default function Skills() {
           <div className="skill-content">
             <img
               className="imagen-skills"
-              src="src/views/Skills/imgs/soft/empatia.png"
+              src="./skills/soft/empatia.png"
               alt="imagen"
             />
             <p>Empatía</p>
