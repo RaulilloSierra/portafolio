@@ -69,6 +69,11 @@
   transition: all 0.2s;
 }
 
+.linkedin,
+.whatsapp {
+  color: var(--white);
+}
+
 .linkedin:hover {
   color: #0a66c2;
   background-color: white;
@@ -77,4 +82,28 @@
 .whatsapp:hover {
   color: #25d366;
   background-color: white;
+}
+
+@media (max-width: 768px) {
+  .contacto {
+    padding: 0 10px;
+  }
+
+  .contacto-email p {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .contacto-medios {
+    font-size: 50px;
+    justify-content: center;
+  }
+
+  .linkedin {
+    color: #0a66c2;
+  }
+
+  .whatsapp {
+    color: #25d366;
+  }
 }

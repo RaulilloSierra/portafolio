@@ -28,3 +28,9 @@
 .about-email:hover {
   transform: scale(1.15);
 }
+
+@media (max-width: 768px) {
+  .about{
+    padding: 0 10px;
+  }
+}

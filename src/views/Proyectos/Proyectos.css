@@ -159,3 +159,34 @@ div.active {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+@media (max-width: 768px) {
+
+  .proyecto{
+    padding: 0 10px;
+  }
+
+  .texto-proyecto{
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .titulo-proyecto{
+    font-size: 14px;
+  }
+
+  .herramientas-proyecto{
+    display: none;
+  }
+
+  .descripcion-proyecto{
+    display: none;
+  }
+
+  .enlaces-proyecto{
+    font-size: 20px;
+  }
+}

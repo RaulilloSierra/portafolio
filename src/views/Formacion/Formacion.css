@@ -13,3 +13,9 @@
 .formacion-container p {
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  .formacion {
+    padding: 0 10px;
+  }
+}

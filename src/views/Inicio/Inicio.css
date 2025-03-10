@@ -94,3 +94,23 @@
   cursor: pointer;
   margin: 5px;
 }
+
+@media (max-width: 768px) {
+  .inicio {
+    flex-direction: column;
+  }
+
+  .inicio-cv{
+    font-size: 20px;
+    padding: 1rem;
+  }
+
+  .inicio-email, .inicio-github{
+    font-size: 24px;
+    padding: 1.5rem;
+  }
+
+  .botones-inicio{
+    justify-content: center;
+  }
+}

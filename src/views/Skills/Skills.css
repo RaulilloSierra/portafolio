@@ -32,3 +32,29 @@
   height: 100px;
   width: 100px;
 }
+
+@media (max-width: 768px) {
+  .skills{
+    padding: 0 10px;
+  }
+
+  .skill-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .skills{
+    padding: 0 10px;
+  }
+
+  .skill-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1299px) {
+  .skill-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

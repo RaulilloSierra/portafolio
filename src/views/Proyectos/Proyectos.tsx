@@ -40,7 +40,7 @@ export default function Proyectos() {
   };
 
   return (
-    <>
+    <div className="proyecto">
       <h2 className="proyecto-titulo">Proyectos</h2>
       <p className="proyecto-introduccion">
         Estos son algunos de los proyectos en los que he trabajado, destacando
@@ -122,6 +122,6 @@ export default function Proyectos() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
