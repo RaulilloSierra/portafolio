@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { FaGithubSquare, FaLink } from "react-icons/fa";
-import { proyectos } from "../../data/data";
+import { proyectos } from "../../data/data.ts";
 import "./Proyectos.css";
 import { Link } from "react-router-dom";
 import Herramientas from "../../components/Herramientas/Herramientas";
