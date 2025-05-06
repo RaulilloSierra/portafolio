@@ -16,7 +16,7 @@ export default function Inicio() {
         <h2>Desarrollador web</h2>
 
         <Link
-          to="https://drive.google.com/file/d/109EGH78F0vbZEzraxH4o63Y5JCXuapvD/view?usp=sharing"
+          to="https://drive.google.com/file/d/10pwhybO24WLCE9JRnFRUb_lIJ5zPpP7N/view?usp=sharing"
           target="_blank"
           className="inicio-cv"
         >
