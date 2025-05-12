@@ -5,5 +5,5 @@ type HerramientasProps = {
 };
 
 export default function Herramientas({ herr }: HerramientasProps) {
-  return <p className={`herramienta-container ${herr}`}>{herr}</p>;
+  return <img src={`./skills/${herr}.png`} alt={herr} className="herramienta-container" />;
 }
